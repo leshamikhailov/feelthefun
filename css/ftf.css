@@ -1,0 +1,247 @@
+.logo-block {
+  height:300px;
+  text-align:center;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13pt;
+  color:#6b6b6b;
+  letter-spacing:25%;
+  line-height: 16pt;
+}
+
+p.about {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22pt;
+  color:#e32d1c;
+  margin-top:22pt;
+}
+
+p.applications {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22pt;
+  color:#ffc91f;
+  margin-top:22pt;
+}
+
+p.contacts {
+  font-family: 'PT Sans', sans-serif; font-size: 22pt; color:#4fba48; margin-top:22pt;
+}
+
+p.gametitle {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22pt;
+  color:#6b6b6b;
+  margin-top:22pt;
+  line-height: 22pt;
+}
+
+ul {
+  font-family: 'PT Sans', sans-serif; font-size: 10pt; color:#6b6b6b; letter-spacing:25%;
+}
+
+.contacts-icon {
+  position:absolute; margin-left:-42px; margin-top:21pt;
+}
+
+.applications-icon {
+  position:absolute; margin-left:-46px; margin-top:21pt;
+}
+
+.about-icon {
+  position:absolute; margin-left:-46px; margin-top:21pt;
+}
+
+.text-block {
+  background-color:white; position: relative; z-index: 10 !important;
+}
+
+.leaf {
+  position:absolute; z-index:1 !important; margin-left:390px; margin-top:-200px;
+}
+
+.subscribe-mobile {
+  display:none;
+}
+
+.top-space {
+  height:74px;
+}
+
+@media (min-width: 1200px) {
+.about-stripe {
+  height:64px;
+  width:100%;
+  background-color:#e32d1c;
+  margin-top:103px;
+  position:absolute;
+  z-index:1 !important;
+}
+
+.applications-stripe {
+  height:64px;
+  width:100%;
+  background-color:#ffc91f;
+  margin-top:352px;
+  position:absolute;
+  z-index:1 !important;
+  top: 420px;
+}
+
+.contacts-stripe {
+  height:64px;
+  width:100%;
+  background-color:#4fba48;
+  margin-top:503px;
+  position:absolute;
+  z-index:1 !important;
+  top: 1674px;
+}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+.about-stripe {
+  height:64px;
+  width:100%;
+  background-color:#e32d1c;
+  margin-top:103px;
+  position:absolute;
+  z-index:1 !important;
+}
+
+.applications-stripe {
+  height:64px;
+  width:100%;
+  background-color:#ffc91f;
+  margin-top:352px;
+  position:absolute;
+  z-index:1 !important;
+  top: 434px;
+}
+
+.contacts-stripe {
+  height:64px;
+  width:100%;
+  background-color:#4fba48;
+  margin-top:503px;
+  position:absolute;
+  z-index:1 !important;
+  top: 1775px;
+}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.about-stripe {
+  height:64px;
+  width:100%;
+  background-color:#e32d1c;
+  margin-top:103px;
+  position:absolute;
+  z-index:1 !important;
+}
+
+.applications-stripe {
+  height:64px;
+  width:100%;
+  background-color:#ffc91f;
+  margin-top:430px;
+  position:absolute;
+  z-index:1 !important;
+  top: 420px;
+}
+
+.contacts-stripe {
+  height:64px;
+  width:100%;
+  background-color:#4fba48;
+  margin-top:503px;
+  position:absolute;
+  z-index:1 !important;
+  top: 1775px;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12pt;
+  color:#6b6b6b;
+  letter-spacing:25%;
+}
+
+.leaf {
+  position:absolute; z-index:1 !important; margin-left:229px; margin-top:-200px;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12pt;
+  color:#6b6b6b;
+  letter-spacing:25%;
+}
+
+.text-block {
+  padding: 0 20px; background-color:white; position: relative; z-index: 10 !important;
+}
+
+.leaf {
+  display:none;
+}
+
+.about-icon, .applications-icon, .contacts-icon {
+  margin-left:0; margin-top:-4pt;
+}
+
+p.about {
+  margin-top:0pt;
+  margin-left: 40px;
+}
+
+p.applications, p.contacts {
+
+  margin-left: 40px;
+}
+
+.top-space {
+  height:40px;
+}
+
+.logo-block {
+  height:260px;
+}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10pt;
+  color:#6b6b6b;
+  letter-spacing:25%;
+}
+
+.text-block {
+  padding: 0 20px; background-color:white; position: relative; z-index: 10 !important;
+}
+
+.leaf {
+  display:none;
+}
+
+.subscribe {
+  display:none;
+}
+
+.subscribe-mobile {
+  display:block;
+}
+
+.logo-block {
+  height:220px;
+}
+}
+
+
