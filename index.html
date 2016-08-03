@@ -54,6 +54,7 @@
 	  <p>Subscribe to our newsletter, to be on the edge of our news!</p><br>
 <div style="margin: 0px auto; width:400px;" class="subscribe control-group success">
 
+<p>
 <form class="form-search" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1aGO-1Jmm1cGjau-1vMcMgudjQ2TFs8oXRJAniwy8L7M/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
 
   <label class="control-label">E-mail:</label>
@@ -67,11 +68,11 @@
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
+  $('#gform *').fadeOut(500);
   $('#gform').prepend('Thanks! Your submission has been processed...');
   });
 </script>
-
+</p>
 </div>
 
       </div>
