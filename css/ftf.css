@@ -14,15 +14,15 @@ p {
 p b{
   font-family: 'PT Sans', sans-serif;
   font-size: 13pt;
-  color:#6b6b6b;
+  color:#000000;
   letter-spacing:25%;
   line-height: 16pt;
-  font-weight: 700;
 }
 
 p.privacy {
   font-family: 'PT Sans', sans-serif;
   font-size: 22pt;
+  color:#000000;
   margin-top:22pt;
 }
 
