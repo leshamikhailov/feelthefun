@@ -11,6 +11,14 @@ p {
   line-height: 16pt;
 }
 
+p b{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13pt;
+  color: red;
+  letter-spacing:25%;
+  line-height: 16pt;
+}
+
 p.privacy {
   font-family: 'PT Sans', sans-serif;
   font-size: 22pt;
