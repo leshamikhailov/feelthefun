@@ -11,6 +11,12 @@ p {
   line-height: 16pt;
 }
 
+p.privacy {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22pt;
+  margin-top:22pt;
+}
+
 p.about {
   font-family: 'PT Sans', sans-serif;
   font-size: 22pt;
