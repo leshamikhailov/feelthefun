@@ -67,7 +67,7 @@
 </div>
 
       <div style="margin: 0px auto;" class="control-group subscribe-mobile success">
-        <form class="form-search" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1aGO-1Jmm1cGjau-1vMcMgudjQ2TFs8oXRJAniwy8L7M/formResponse" target="hidden_iframe2" onsubmit="submitted=true;">
+        <form class="form-search" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1aGO-1Jmm1cGjau-1vMcMgudjQ2TFs8oXRJAniwy8L7M/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
           <input type="email" class="span3" placeholder="mail@mail.com" name="entry.1713523199" id="entry.1713523199">
           <p></p>
           <button type="submit" class="btn btn-success" value="Submit">Subscribe</button>
@@ -78,17 +78,6 @@
 	</div>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-<script src="js/jquery-3.1.0.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(500);
-  $('#gform').prepend('Thanks! Your submission has been processed...');
-  });
-</script>
-
-<iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted) {}"></iframe>
 
 <script src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
