@@ -3,6 +3,10 @@
   text-align:center;
 }
 
+.logo-big {
+  margin-top:30px;
+}
+
 p {
   font-family: 'PT Sans', sans-serif;
   font-size: 13pt;
@@ -15,6 +19,14 @@ p b{
   font-family: 'PT Sans', sans-serif;
   font-size: 13pt;
   color:#000000;
+  letter-spacing:25%;
+  line-height: 16pt;
+}
+
+p g{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13pt;
+  color:#57ae57;
   letter-spacing:25%;
   line-height: 16pt;
 }
@@ -89,6 +101,10 @@ ul {
 
 .leaf {
   position:absolute; z-index:1 !important; margin-left:390px; margin-top:-200px;
+}
+
+.leaf-mobile {
+  position:absolute; z-index:2 !important; margin-left:230px; margin-top:-100px;
 }
 
 .subscribe-mobile {
@@ -202,7 +218,10 @@ p {
 .leaf {
   position:absolute; z-index:1 !important; margin-left:229px; margin-top:-200px;
 }
+
 }
+
+
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
@@ -247,7 +266,26 @@ p.applications, p.contacts {
 .logo-block {
   height:160px;
 }
+
+.logo-big {
+  margin-top:30px;
+  width:250px;
 }
+
+.subscribe-block {
+  padding: 20px 20px; background-color:#f2f2f2;
+}
+
+.subscribe {
+  display:none;
+}
+
+.subscribe-mobile {
+  display:block;
+}
+}
+
+
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
@@ -275,7 +313,12 @@ p {
 }
 
 .logo-block {
-  height:220px;
+  height:160px;
+}
+
+.logo-big {
+  margin-top:30px;
+  width:250px;
 }
 }
 
