@@ -19,6 +19,14 @@ p b{
   line-height: 16pt;
 }
 
+p.mobile_text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13pt;
+  color:#6b6b6b;
+  line-height: 18pt;
+
+}
+
 p.privacy {
   font-family: 'PT Sans', sans-serif;
   font-size: 22pt;
@@ -27,6 +35,13 @@ p.privacy {
 }
 
 p.about {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22pt;
+  color:#e32d1c;
+  margin-top:22pt;
+}
+
+p.forparents {
   font-family: 'PT Sans', sans-serif;
   font-size: 22pt;
   color:#e32d1c;
@@ -215,6 +230,11 @@ p.about {
   margin-left: 40px;
 }
 
+p.forparents {
+  margin-top: 0pt;
+  margin-left: 0px;
+}
+
 p.applications, p.contacts {
 
   margin-left: 40px;
@@ -225,7 +245,7 @@ p.applications, p.contacts {
 }
 
 .logo-block {
-  height:260px;
+  height:160px;
 }
 }
 
